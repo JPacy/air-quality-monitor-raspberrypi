@@ -30,6 +30,18 @@ has a CO2 concentration less than 1000 ppm, yellow if the CO2 concentration is l
 ### Prototype
 ![](https://github.com/JPacy/air-quality-monitor-raspberrypi/blob/main/air-monitor-prototype.jpg)
 
+## Process
+This project started with only having a raspberry pi 4. Then I got the idea to make an air quality monitor. I thought about which metrics
+would be important for air quality and come to the conclusion that PM2.5 and PM10 are important metrics. So then I searched for a PM-sensor. 
+I eventually found the Nova SDS011. I chose this sensor because it is easy to interface with an raspberry pi. 
+
+Then I also found out that in an indoor environment, the CO2 level also contributes a lot to our well-being. That is why I also chose to
+monitor the CO2 level. I did this by adding a Senseair S8 sensor to the raspberry pi. 
+
+After the sensors were coneected to the raspberry pi, I wrote two separate python scripts, one for each sensor. These scripts send the sensor data
+to an InfluxDB database. I chose for InfluxDB, because it is open-source and suitable for time-series data. Besides it is also supported in Grafana.
+This makes it easy to query and visualise the data on a dashboard in Grafana.
+
 ## Resources
 - https://gist.github.com/geoffwatts/b0b488b5a5257223ed53 (Sensor readout Nova SDS011)
 - https://pypi.org/project/senseair-s8/ (Sensor readout Senseair S8)
