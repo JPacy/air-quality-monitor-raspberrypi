@@ -51,7 +51,7 @@ to an InfluxDB database. I chose for InfluxDB, because it is open-source and sui
 This makes it easy to query and visualise the data on a dashboard in Grafana.
 
 ## Credits
-The inspiration for this project came from a youtube video mentioned in the resources section. 
+The inspiration for this project came from a youtube video mentioned in the resources section. (See image in the Prototype section).
 
 ## Resources
 - https://gist.github.com/geoffwatts/b0b488b5a5257223ed53 (Sensor readout Nova SDS011)
