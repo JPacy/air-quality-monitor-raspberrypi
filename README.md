@@ -30,6 +30,9 @@ has a CO2 concentration less than 1000 ppm, yellow if the CO2 concentration is l
 ### Prototype
 ![](https://github.com/JPacy/air-quality-monitor-raspberrypi/blob/main/air-monitor-prototype.jpg)
 
+#### Demo
+https://youtu.be/424DJOA0QDk
+
 ## Process
 This project started with only having a raspberry pi 4. Then I got the idea to make an air quality monitor. I thought about which metrics
 would be important for air quality and come to the conclusion that PM2.5 and PM10 are important metrics. So then I searched for a PM-sensor. 
