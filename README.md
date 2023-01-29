@@ -42,6 +42,9 @@ After the sensors were coneected to the raspberry pi, I wrote two separate pytho
 to an InfluxDB database. I chose for InfluxDB, because it is open-source and suitable for time-series data. Besides it is also supported in Grafana.
 This makes it easy to query and visualise the data on a dashboard in Grafana.
 
+## Credits
+The inspiration for this project came from a youtube video mentioned in the resources section. 
+
 ## Resources
 - https://gist.github.com/geoffwatts/b0b488b5a5257223ed53 (Sensor readout Nova SDS011)
 - https://pypi.org/project/senseair-s8/ (Sensor readout Senseair S8)
