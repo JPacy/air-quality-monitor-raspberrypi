@@ -21,6 +21,10 @@ InfluxDB is an open-source time-series database. This database is used to store 
 ### Grafana
 The data that is stored in our database gets queried using Grafana, which is an open-source analytics and interactive visualization web-application. This makes visualisation of the data possible in a graph. 
 
+### LED indicator
+The prototype also has 3 LED indicators. These LED's will light up depending on the CO2 level in the air. The LED will be green if the air 
+has a CO2 concentration less than 1000 ppm, yellow if the CO2 concentration is less than 2000 but above 1000 and finally red if the CO2 concentration is above 2000 ppm.
+
 ![](https://github.com/JPacy/air-quality-monitor-raspberrypi/blob/main/air-monitor-grafana-dashboard.png)
 
 ### Prototype
