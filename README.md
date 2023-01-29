@@ -33,7 +33,7 @@ has a CO2 concentration less than 1000 ppm, yellow if the CO2 concentration is l
 #### Connections
 ![](https://github.com/JPacy/air-quality-monitor-raspberrypi/blob/main/senseair_connection.png) (image from http://co2meters.com/Documentation/AppNotes/AN168-S8-raspberry-pi-uart.pdf)
 
-The Nova SDS011 can be connected directly to an USB-port, as it comes with a USB-to-Serial converter.
+The Nova SDS011 can be connected directly to an USB-port, as it comes with a USB-to-Serial converter. (See image in Prototype section)
 
 #### Demo
 https://youtu.be/424DJOA0QDk
@@ -51,7 +51,7 @@ to an InfluxDB database. I chose for InfluxDB, because it is open-source and sui
 This makes it easy to query and visualise the data on a dashboard in Grafana.
 
 ## Credits
-The inspiration for this project came from a youtube video mentioned in the resources section. (See image in the Prototype section).
+The inspiration for this project came from a youtube video mentioned in the resources section.
 
 ## Resources
 - https://gist.github.com/geoffwatts/b0b488b5a5257223ed53 (Sensor readout Nova SDS011)
