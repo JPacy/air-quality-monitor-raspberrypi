@@ -23,6 +23,9 @@ The data that is stored in our database gets queried using Grafana, which is an 
 
 ![](https://github.com/JPacy/air-quality-monitor-raspberrypi/blob/main/air-monitor-grafana-dashboard.png)
 
+### Prototype
+![](https://github.com/JPacy/air-quality-monitor-raspberrypi/blob/main/air-monitor-prototype.jpg)
+
 ## Resources
 - https://gist.github.com/geoffwatts/b0b488b5a5257223ed53 (Sensor readout Nova SDS011)
 - https://pypi.org/project/senseair-s8/ (Sensor readout Senseair S8)
