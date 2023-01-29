@@ -21,6 +21,8 @@ InfluxDB is an open-source time-series database. This database is used to store 
 ### Grafana
 The data that is stored in our database gets queried using Grafana, which is an open-source analytics and interactive visualization web-application. This makes visualisation of the data possible in a graph. 
 
+![](https://github.com/JPacy/air-quality-monitor-raspberrypi/blob/main/air-monitor-grafana-dashboard.png)
+
 ## Resources
 - https://gist.github.com/geoffwatts/b0b488b5a5257223ed53 (Sensor readout Nova SDS011)
 - https://pypi.org/project/senseair-s8/ (Sensor readout Senseair S8)
