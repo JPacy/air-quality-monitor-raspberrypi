@@ -6,3 +6,8 @@ from the sensors to an InfluxDB database using their API. Then the data gets vis
 
 ## IoT pipeline 
 ![alt text](https://github.com/JPacy/air-quality-monitor-raspberrypi/blob/main/IoTPipeline.jpeg)
+
+## Resources
+- https://gist.github.com/geoffwatts/b0b488b5a5257223ed53 (Sensor readout Nova SDS011)
+- https://pypi.org/project/senseair-s8/ (Sensor readout Senseair S8)
+- https://cdn-reichelt.de/documents/datenblatt/X200/SDS011-DATASHEET.pdf (Nova SDS011 Datasheet)
