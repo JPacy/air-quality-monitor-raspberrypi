@@ -30,6 +30,9 @@ has a CO2 concentration less than 1000 ppm, yellow if the CO2 concentration is l
 ### Prototype
 ![](https://github.com/JPacy/air-quality-monitor-raspberrypi/blob/main/air-monitor-prototype.jpg)
 
+#### Connections
+![](https://github.com/JPacy/air-quality-monitor-raspberrypi/blob/main/senseair_connection.png) (image from http://co2meters.com/Documentation/AppNotes/AN168-S8-raspberry-pi-uart.pdf)
+
 #### Demo
 https://youtu.be/424DJOA0QDk
 
@@ -53,3 +56,4 @@ The inspiration for this project came from a youtube video mentioned in the reso
 - https://pypi.org/project/senseair-s8/ (Sensor readout Senseair S8)
 - https://cdn-reichelt.de/documents/datenblatt/X200/SDS011-DATASHEET.pdf (Nova SDS011 Datasheet)
 - https://www.youtube.com/watch?v=Cmr5VNALRAg&t=681s&ab_channel=JeffGeerling (Inspiration for this project)
+- http://co2meters.com/Documentation/AppNotes/AN168-S8-raspberry-pi-uart.pdf (Connections for Senseair S8)
