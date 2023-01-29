@@ -5,4 +5,4 @@ The sensor readout is done using a python script for both the Senseair S8 and No
 from the sensors to an InfluxDB database using their API. Then the data gets visualized using Grafana, an open-source analytics and interactive visualization web-application.
 
 ## IoT pipeline 
-![alt text](https://github.com/JPacy/air-quality-monitor-raspberrypi/edit/main/Iot_Pipeline.pdf?raw=true)
+![alt text](https://github.com/JPacy/air-quality-monitor-raspberrypi/edit/main/Iot Pipeline.pdf?raw=true)
