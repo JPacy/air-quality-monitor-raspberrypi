@@ -33,6 +33,8 @@ has a CO2 concentration less than 1000 ppm, yellow if the CO2 concentration is l
 #### Connections
 ![](https://github.com/JPacy/air-quality-monitor-raspberrypi/blob/main/senseair_connection.png) (image from http://co2meters.com/Documentation/AppNotes/AN168-S8-raspberry-pi-uart.pdf)
 
+The Nova SDS011 can be connected directly to an USB-port, as it comes with a USB-to-Serial converter.
+
 #### Demo
 https://youtu.be/424DJOA0QDk
 
